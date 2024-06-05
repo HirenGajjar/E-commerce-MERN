@@ -381,6 +381,12 @@
     gap: 50px;
 }
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .footer-logo p {
     color: #383838;
     font-size: 46px;
@@ -399,7 +405,7 @@
     cursor: pointer;
 }
 
-.footer-social-icon {
+.footer-social-icons {
     display: flex;
     gap: 20px;
 }

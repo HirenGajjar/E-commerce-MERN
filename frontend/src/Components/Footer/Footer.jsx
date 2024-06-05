@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="footer-10go">
+        <div className="footer-logo">
           <img src={footer_icon} alt="" />
           <p>ShopNow</p>
         </div>
