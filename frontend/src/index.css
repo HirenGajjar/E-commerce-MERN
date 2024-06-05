@@ -178,13 +178,13 @@
     gap: 20px;
 }
 
-.item-new-price {
+.item-new-price p {
     color: #374151;
     font-size: 18px;
     font-weight: 900px;
 }
 
-.item-old-price {
+.item-old-price p {
     color: #8c8c8c;
     font-size: 18px;
     font-weight: 500px;
@@ -224,4 +224,28 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+}
+
+/* Offers */
+.offers {
+    width: 65%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.offers-left h1 {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
 }
