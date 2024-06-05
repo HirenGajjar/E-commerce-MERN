@@ -11,7 +11,7 @@ function Item(props) {
             <p>${props.new_price}</p>
           </div>
           <div className="item-price-old">
-            <p>${props.old_price}</p>
+            <p className="old-price-text">${props.old_price}</p>
           </div>
         </div>
       </div>
