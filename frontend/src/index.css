@@ -6,6 +6,11 @@
     transition: all ease-in-out 0.3s;
 }
 
+.Link {
+    text-decoration: none;
+    color: black;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -55,6 +60,7 @@
     display: flex;
     align-items: center;
     gap: 45px;
+    cursor: pointer;
 }
 
 .nav-login-cart button {
@@ -68,6 +74,7 @@
     font-weight: 600;
     background-color: white;
     border-radius: 75px;
+
     transition: all ease-in-out 0.3s;
 }
 
@@ -93,3 +100,5 @@
     background-color: red;
     color: white;
 }
+
+/* Hero */
